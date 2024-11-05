@@ -16,7 +16,7 @@ const Footer = () => {
   return (  
     <div className=' max-lg:flex-col w-[90%] mx-auto mt-8 border-t-2 pt-5 border-slategray text-[15px]'>
         {footerLink.map((label) => (
-            <div className='flex flex-row justify-between font-semibold text-slate-gray'>
+            <div className='flex flex-row justify-between font-semibold text-idigo'>
                 <h1 key={label} className=''>Copyright © 2024 <span className='hover:text-black'>{label.title}</span></h1>
             <ul className='flex flex-row cursor-pointer justify-between w-[35%]'>
               {label.links.map((link) => (
